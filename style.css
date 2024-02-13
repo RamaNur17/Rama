@@ -1,0 +1,58 @@
+*{ 
+    margin: 0;
+    padding: 7px;
+    box-sizing: content-box;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(88, 43, 166, 0.915);
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+   
+}
+
+
+.calculator{
+    padding: 10px;
+    box-shadow: rgb(90, 151, 242);
+    background-color: rgb(58, 57, 60);
+
+}
+.equal{
+  height: 110px;
+}
+.equal:hover{
+  background: green;
+  color: azure;
+
+}
+
+.del:hover{
+  background: chocolate;
+  color: aliceblue;
+}
+
+button{
+    height: 30px;
+    width: 50px;
+    font-size: 22px;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.textView{
+    width: 215px;
+    font-size: 22px;
+    height: auto;
+}
+
